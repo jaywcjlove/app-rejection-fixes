@@ -6,9 +6,8 @@ body:
   - type: textarea
     attributes:
       label: 🚫 Rejection Message
-      description:  The rejection message you received from Apple.
-      placeholder: |
-        Please provide the rejection message you received from Apple. For Example:
+      description: |
+        The rejection message you received from Apple. For Example:
 
         ```markdown
         ## 🚫 Guideline 2.3 - Performance - Accurate Metadata
@@ -21,15 +20,15 @@ body:
 
         To resolve this issue, please revise or remove this content from your app’s metadata. For resources on metadata best practices, you may want to review the App Store Product Page information available on the Apple Developer website.
         ```
+      placeholder: Please provide the rejection message you received from Apple.
 
     validations:
       required: true
   - type: textarea
     attributes:
       label: 💯 Rejection Fixes
-      description: The steps you took to fix the rejection.
-      placeholder: |
-        Please provide the steps you took to fix the rejection. For Example:
+      description: |
+        The steps you took to fix the rejection. For Example:
 
         ```markdown
         > [!TIP]  
@@ -37,6 +36,7 @@ body:
         > 
         > While mentioning macOS in the release notes for an iOS app is not problematic, mentioning iOS in the release notes for a macOS app is likely to result in rejection.
         ```
+      placeholder: Please provide the steps you took to fix the rejection.
 
     validations:
       required: true
