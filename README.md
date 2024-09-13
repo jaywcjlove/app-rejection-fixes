@@ -48,6 +48,24 @@ To resolve this issue, please revise or remove this content from your app’s me
 > 
 > While mentioning macOS in the release notes for an iOS app is not problematic, mentioning iOS in the release notes for a macOS app is likely to result in rejection.
 
+## 🚫 Guideline 2.4.5(i) - Performance
+
+In order to continue reviewing your app, we require additional information.
+
+Your app uses one or more entitlements which do not appear to have matching functionality within the app. Please reply to this message in App Store Connect and describe how and where the app uses the following entitlements. You will not need to upload a new binary to provide this information.
+
+Apps should have only the minimum set of entitlements necessary for the app to function properly. If there are entitlements that are not needed, please remove them and submit an updated binary. You will need to Developer Reject the app to upload an updated version.
+
+```
+com.apple.security.files.bookmarks.app-scope
+com.apple.security.network.server
+```
+
+> [!TIP]  
+> **A: 💯 Rejection Fixes**
+> 
+> When using permissions, you need to include a note during the initial review. If not, the app might be rejected. In that case, simply respond with a description of where the permissions are used, and the issue will be resolved.
+
 ## 🚫 Guideline 4 - Design
 
 We noticed an issue with your app's user interface that contributes to a lower-quality user experience than App Store users expect.
