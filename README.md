@@ -16,6 +16,36 @@ The Support URL provided in App Store Connect, https://wangchujiang.com/quick-rs
 > 
 > ???
 
+## 🚫 Guideline 2.1 - Performance - App Completeness
+
+Submissions to App Review, including apps you make available for pre-order, should be final versions with all necessary metadata and fully functional URLs included; placeholder text, empty websites, and other temporary content should be scrubbed before submission. Make sure your app has been tested on-device for bugs and stability before you submit it, and include demo account info (and turn on your back-end service!) if your app includes a login. If you are unable to provide a demo account due to legal or security obligations, you may include a built-in demo mode in lieu of a demo account with prior approval by Apple. Ensure the demo mode exhibits your app’s full features and functionality. We will reject incomplete app bundles and binaries that crash or exhibit obvious technical problems.
+
+**Q: Issue Description**
+
+The app exhibited one or more bugs that would negatively impact App Store users.
+
+Bug description: No content was displayed on the PASS Purchase page.
+
+> [!TIP]  
+> **A: 💯 Rejection Fixes**
+> 
+> ???
+
+## 🚫  Guideline 2.3 - Performance - Accurate Metadata
+
+We noticed that your app’s metadata includes the following information, which is not relevant to the app’s content and functionality:
+
+What’ new text showed iOS reference.
+
+**Q: Next Steps**
+
+To resolve this issue, please revise or remove this content from your app’s metadata. For resources on metadata best practices, you may want to review the App Store Product Page information available on the Apple Developer website.
+
+> [!TIP]  
+> **A: 💯 Rejection Fixes**
+> 
+> While mentioning macOS in the release notes for an iOS app is not problematic, mentioning iOS in the release notes for a macOS app is likely to result in rejection.
+
 ## 🚫 Guideline 4 - Design
 
 We noticed an issue with your app's user interface that contributes to a lower-quality user experience than App Store users expect.
