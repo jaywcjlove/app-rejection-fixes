@@ -1,0 +1,21 @@
+name: 🎉 Add app rejection fixes report
+description: Suggest an addition to this list.
+title: '🎉 Add <rejection fixes report>'
+labels: ['addition']
+body:
+  - type: textarea
+    attributes:
+      label: 🚫 Rejection Message
+      description:  The rejection message you received from Apple.
+      placeholder: |
+        Please provide the rejection message you received from Apple.
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: 💯 Rejection Fixes
+      description: The steps you took to fix the rejection.
+      placeholder: |
+        Please provide the steps you took to fix the rejection.
+    validations:
+      required: true
