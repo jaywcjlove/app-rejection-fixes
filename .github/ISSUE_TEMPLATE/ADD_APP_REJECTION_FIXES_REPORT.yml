@@ -1,6 +1,6 @@
 name: 🚫 Add app rejection fixes report
 description: Suggest an addition to this list.
-title: '🚫 Add <rejection fixes report>'
+title: '🚫 Add <rejection fixes report, E.g: Guideline 2.3 - Performance - Accurate Metadata>'
 labels: ['addition']
 body:
   - type: textarea
