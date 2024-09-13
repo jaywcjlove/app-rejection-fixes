@@ -11,9 +11,10 @@ This repository documents the various reasons why apps were rejected during the 
 
 The Support URL provided in App Store Connect, https://wangchujiang.com/quick-rss/, does not direct to a website with information users can use to ask questions and request support.
 
-**A: 💯 Rejection Fixes**
-
-???
+> [!TIP]  
+> **A: 💯 Rejection Fixes**
+> 
+> ???
 
 ## 🚫 Guideline 4 - Design
 
@@ -27,10 +28,11 @@ It would be appropriate for the app to implement a Window menu that lists the ma
 
 Alternatively, if the application is a single-window app, it might be appropriate to save data and quit the app when the main window is closed.
 
-**A: 💯 Rejection Fixes**
-
-Add a ‘Main Windows’ menu item to the Windows menu. This way, when the application is closed, users can click this menu item to reopen the main window.
-
-![Rejection Fixes](https://github.com/user-attachments/assets/d316f9a4-c683-40cd-af25-93f357d6f80f)
-
-Alternatively, you can implement it so that clicking the close button exits the application directly.
+> [!TIP]  
+> **A: 💯 Rejection Fixes**
+> 
+> Add a ‘Main Windows’ menu item to the Windows menu. This way, when the application is closed, users can click this menu item to reopen the main window.
+> 
+> <img src="https://github.com/user-attachments/assets/d316f9a4-c683-40cd-af25-93f357d6f80f" alt="Rejection Fixes" width="360" />
+> 
+> Alternatively, you can implement it so that clicking the close button exits the application directly.
