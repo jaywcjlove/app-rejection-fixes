@@ -1,6 +1,6 @@
-name: 🎉 Add app rejection fixes report
+name: 🚫 Add app rejection fixes report
 description: Suggest an addition to this list.
-title: '🎉 Add <rejection fixes report>'
+title: '🚫 Add <rejection fixes report>'
 labels: ['addition']
 body:
   - type: textarea
@@ -8,7 +8,20 @@ body:
       label: 🚫 Rejection Message
       description:  The rejection message you received from Apple.
       placeholder: |
-        Please provide the rejection message you received from Apple.
+        Please provide the rejection message you received from Apple. For Example:
+
+        ```markdown
+        ## 🚫 Guideline 2.3 - Performance - Accurate Metadata
+
+        We noticed that your app’s metadata includes the following information, which is not relevant to the app’s content and functionality:
+
+        What’ new text showed iOS reference.
+
+        **Q: Next Steps**
+
+        To resolve this issue, please revise or remove this content from your app’s metadata. For resources on metadata best practices, you may want to review the App Store Product Page information available on the Apple Developer website.
+        ```
+
     validations:
       required: true
   - type: textarea
@@ -16,6 +29,14 @@ body:
       label: 💯 Rejection Fixes
       description: The steps you took to fix the rejection.
       placeholder: |
-        Please provide the steps you took to fix the rejection.
+        Please provide the steps you took to fix the rejection. For Example:
+
+        ```markdown
+        > [!TIP]  
+        > **A: 💯 Rejection Fixes**
+        > 
+        > While mentioning macOS in the release notes for an iOS app is not problematic, mentioning iOS in the release notes for a macOS app is likely to result in rejection.
+        ```
+
     validations:
       required: true
