@@ -11,7 +11,7 @@ This repository documents the various reasons why apps were rejected during the 
 
 The Support URL provided in App Store Connect, https://wangchujiang.com/quick-rss/, does not direct to a website with information users can use to ask questions and request support.
 
-> [!TIP]  
+> [!WARNING]  
 > **A: 💯 Rejection Fixes**
 > 
 > ???
@@ -26,7 +26,7 @@ The app exhibited one or more bugs that would negatively impact App Store users.
 
 Bug description: No content was displayed on the PASS Purchase page.
 
-> [!TIP]  
+> [!WARNING]  
 > **A: 💯 Rejection Fixes**
 > 
 > ???
