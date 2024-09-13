@@ -16,7 +16,7 @@ The Support URL provided in App Store Connect, https://wangchujiang.com/quick-rs
 > 
 > In most cases, including links and contact information for technical support passes the review without issues. However, occasionally a stricter reviewer may reject the app because of it. To solve this, I used a free solution by offering technical support through GitHub using the [issue](https://github.com/jaywcjlove/quick-rss/issues/new?assignees=&labels=support%2Cfeedback%2Cquestion&projects=&template=bug_report.yml&title=%F0%9F%99%8B%E2%80%8D%E2%99%82%EF%B8%8F+Support+%26+Feedback%3A+Quick+RSS) creation feature, and the app successfully passed the review.
 > 
-> <img src="https://github.com/user-attachments/assets/ec2e48e7-fbcc-404d-969a-a5729354aad4" alt="Rejection Fixes" width="460" />
+> <a href="https://github.com/jaywcjlove/quick-rss/issues/new?assignees=&labels=support%2Cfeedback%2Cquestion&projects=&template=bug_report.yml&title=%F0%9F%99%8B%E2%80%8D%E2%99%82%EF%B8%8F+Support+%26+Feedback%3A+Quick+RSS"><img src="https://github.com/user-attachments/assets/ec2e48e7-fbcc-404d-969a-a5729354aad4" alt="Rejection Fixes" width="360" /></a>
 
 ## 🚫 Guideline 2.1 - Performance - App Completeness
 
