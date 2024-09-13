@@ -24,9 +24,6 @@ jobs:
           logo: ./logo.svg
           openSource: https://github.com/jaywcjlove/app-rejection-fixes
           homepage: https://wangchujiang.com/app-rejection-fixes/
-          tocs: false
-          element: 
-            wrapper: style=max-width:720px;
           meta:
             - <meta name="author" content="Kenny Wong">
             - <meta property="og:site_name" content="<%= site %>">
