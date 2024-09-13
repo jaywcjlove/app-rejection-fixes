@@ -18,7 +18,7 @@ body:
 
         **Q: Next Steps**
 
-        To resolve this issue, please revise or remove this content from your app’s metadata. For resources on metadata best practices, you may want to review the App Store Product Page information available on the Apple Developer website.
+        To resolve this issue, please revise or remove this content from your app’s metadata. ....
         ```
       placeholder: Please provide the rejection message you received from Apple.
 
@@ -34,7 +34,7 @@ body:
         > [!TIP]  
         > **A: 💯 Rejection Fixes**
         > 
-        > While mentioning macOS in the release notes for an iOS app is not problematic, mentioning iOS in the release notes for a macOS app is likely to result in rejection.
+        > While mentioning macOS in the release notes for an iOS app is not problematic, ....
         ```
       placeholder: Please provide the steps you took to fix the rejection.
 
