@@ -20,8 +20,8 @@ jobs:
           site: "App Rejection Fixes"
           description: This repository documents the various reasons why apps were rejected during the App Store review process and provides solutions to resolve these issues.
           keywords: App Rejection, App Store Review, Rejection Reasons, App Submission, Developer Resources, Review Process, App Approval, Common Issues, Solutions, Review Issues
-          favicon: assets/logo.png
-          logo: ./assets/logo.png
+          favicon: logo.svg
+          logo: ./logo.svg
           openSource: https://github.com/jaywcjlove/app-rejection-fixes
           homepage: https://wangchujiang.com/app-rejection-fixes/
           tocs: false
@@ -31,6 +31,7 @@ jobs:
             - <meta name="author" content="Kenny Wong">
             - <meta property="og:site_name" content="<%= site %>">
             - <meta property="og:url" content="<%=homepage%><%=RESOLVE_PATH%>">
+            - <meta property="og:image" content="<%=homepage%>logo.svg">
             - <meta property="og:type" content="application">
             - <meta property="og:title" content="<%= site %>">
             - <meta property="og:description" content="<%= description%>">
