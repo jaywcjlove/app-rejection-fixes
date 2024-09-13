@@ -31,7 +31,7 @@ Bug description: No content was displayed on the PASS Purchase page.
 > 
 > ???
 
-## 🚫  Guideline 2.3 - Performance - Accurate Metadata
+## 🚫 Guideline 2.3 - Performance - Accurate Metadata
 
 We noticed that your app’s metadata includes the following information, which is not relevant to the app’s content and functionality:
 
