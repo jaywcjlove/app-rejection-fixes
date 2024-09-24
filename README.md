@@ -106,3 +106,20 @@ Alternatively, if the application is a single-window app, it might be appropriat
 > <img src="https://github.com/user-attachments/assets/d316f9a4-c683-40cd-af25-93f357d6f80f" alt="Rejection Fixes" width="360" />
 > 
 > Alternatively, you can implement it so that clicking the close button exits the application directly.
+
+## 🚫 Guideline 3.1.1 - Business - Payments - In-App Purchase
+
+We have begun the review of your in-app purchases but aren't able to continue because your submitted in-app purchases indicate a change of business model for your app. 
+
+Specifically, your existing Auto-Renewable Subscription business model has changed to include a non-consumable in-app purchase business model type.
+
+Therefore, we need to verify the implementation of your submitted in-app purchases in the app to ensure your app, and its in-app purchases, are in compliance with the App Review Guidelines.
+
+**Q: Next Steps**
+
+In order to approve your your new in-app purchase business model, we have to verify the purchasability of the items being sold. Please upload a new binary and make sure that your new in-app purchase products are available for purchase at the time of review.
+
+> [!WARNING]  
+> **A: 💯 Rejection Fixes**
+> 
+> ???
