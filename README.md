@@ -51,7 +51,7 @@ Bug description: No content was displayed on the PASS Purchase page.
 > [!WARNING]  
 > **A: 💯 Rejection Fixes**
 > 
-> ???
+> The purchase page did not display any product items, and the page was blank. The reason was an incorrect subscription ID.
 
 ## 🚫 Guideline 2.3 - Performance - Accurate Metadata
 
