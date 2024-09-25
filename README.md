@@ -122,4 +122,4 @@ In order to approve your your new in-app purchase business model, we have to ver
 > [!WARNING]  
 > **A: 💯 Rejection Fixes**
 > 
-> ???
+> ??? No changes were made, but after resubmitting, a new error [2.1](#-guideline-21---performance---app-completeness) occurred.
