@@ -52,6 +52,11 @@ Specifically, official app support contact was not found in the support URL.
 
 Update the specified Support URL to direct users to a webpage with support information.
 
+> [!WARNING]  
+> **A: 💯 Rejection Fixes**
+> 
+> ???
+
 ## 🚫 Guideline 2.1 - Performance - App Completeness
 
 Submissions to App Review, including apps you make available for pre-order, should be final versions with all necessary metadata and fully functional URLs included; placeholder text, empty websites, and other temporary content should be scrubbed before submission. Make sure your app has been tested on-device for bugs and stability before you submit it, and include demo account info (and turn on your back-end service!) if your app includes a login. If you are unable to provide a demo account due to legal or security obligations, you may include a built-in demo mode in lieu of a demo account with prior approval by Apple. Ensure the demo mode exhibits your app’s full features and functionality. We will reject incomplete app bundles and binaries that crash or exhibit obvious technical problems.
