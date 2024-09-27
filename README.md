@@ -38,6 +38,20 @@ The Support URL provided in App Store Connect, https://wangchujiang.com/quick-rs
 > 
 > <a href="https://github.com/jaywcjlove/quick-rss/issues/new?assignees=&labels=support%2Cfeedback%2Cquestion&projects=&template=bug_report.yml&title=%F0%9F%99%8B%E2%80%8D%E2%99%82%EF%B8%8F+Support+%26+Feedback%3A+Quick+RSS"><img src="https://github.com/user-attachments/assets/ec2e48e7-fbcc-404d-969a-a5729354aad4" alt="Rejection Fixes" width="360" /></a>
 
+## 🚫 Guideline 1.5 - Safety
+
+1.5 Developer Information People need to know how to reach you with questions and support issues. Make sure your app and its Support URL include an easy way to contact you; this is particularly important for apps that may be used in the classroom. Failure to include accurate and up-to-date contact information not only frustrates customers, but may violate the law in some countries or regions. Also ensure that Wallet passes include valid contact information from the issuer and are signed with a dedicated certificate assigned to the brand or trademark owner of the pass.
+
+**Q: Issue Description**
+
+The Support URL provided in App Store Connect, https://github.com/jaywcjlove/quick-rss/issues/new?assignees=&labels=support%2Cfeedback%2Cquestion&projects=&template=bug_report.yml&title=%F0%9F%99%8B%E2%80%8D%E2%99%82%EF%B8%8F+Support+%26+Feedback%3A+Quick+RSS, does not direct to a website with information users can use to ask questions and request support.
+
+Specifically, official app support contact was not found in the support URL.
+
+**Q: Next Steps**
+
+Update the specified Support URL to direct users to a webpage with support information.
+
 ## 🚫 Guideline 2.1 - Performance - App Completeness
 
 Submissions to App Review, including apps you make available for pre-order, should be final versions with all necessary metadata and fully functional URLs included; placeholder text, empty websites, and other temporary content should be scrubbed before submission. Make sure your app has been tested on-device for bugs and stability before you submit it, and include demo account info (and turn on your back-end service!) if your app includes a login. If you are unable to provide a demo account due to legal or security obligations, you may include a built-in demo mode in lieu of a demo account with prior approval by Apple. Ensure the demo mode exhibits your app’s full features and functionality. We will reject incomplete app bundles and binaries that crash or exhibit obvious technical problems.
