@@ -53,6 +53,26 @@ Bug description: No content was displayed on the PASS Purchase page.
 > 
 > The purchase page did not display any product items, and the page was blank. The reason was an incorrect subscription ID.
 
+## 🚫 Guideline 2.1 - Information Needed
+
+We need a video that demonstrates the current version, 1.0, in use on a physical iOS device.
+
+Specifically, we need a demo video that shows app in-use.
+
+The demo video should:
+
+- Show the app running on a physical iOS device, not on a simulator.
+- Clearly documents all relevant app features, services, and user permission requests.
+
+**Q: Next Steps**
+
+Provide a link to the video in the App Review Information section of your the app’s page in App Store Connect and reply to this message. A screen recorder can be used to capture footage of the app in use. Note that if the app can only be reviewed with a demo video, updated demo videos will need to be provided for every app submission.
+
+> [!WARNING]  
+> **A: 💯 Rejection Fixes**
+> 
+> ???
+
 ## 🚫 Guideline 2.3 - Performance - Accurate Metadata
 
 We noticed that your app’s metadata includes the following information, which is not relevant to the app’s content and functionality:
