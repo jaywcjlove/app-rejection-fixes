@@ -52,10 +52,10 @@ Specifically, official app support contact was not found in the support URL.
 
 Update the specified Support URL to direct users to a webpage with support information.
 
-> [!WARNING]  
+> [!TIP]  
 > **A: 💯 Rejection Fixes**
 > 
-> ???
+> I created a feedback page (https://wangchujiang.com/quick-rss/feedback.zh.html) which passed the iOS review. However, for the macOS version, the feedback page is still using GitHub Issues.
 
 ## 🚫 Guideline 2.1 - Performance - App Completeness
 
@@ -67,7 +67,7 @@ The app exhibited one or more bugs that would negatively impact App Store users.
 
 Bug description: No content was displayed on the PASS Purchase page.
 
-> [!WARNING]  
+> [!TIP]  
 > **A: 💯 Rejection Fixes**
 > 
 > The purchase page did not display any product items, and the page was blank. The reason was an incorrect subscription ID.
@@ -87,10 +87,10 @@ The demo video should:
 
 Provide a link to the video in the App Review Information section of your the app’s page in App Store Connect and reply to this message. A screen recorder can be used to capture footage of the app in use. Note that if the app can only be reviewed with a demo video, updated demo videos will need to be provided for every app submission.
 
-> [!WARNING]  
+> [!TIP]  
 > **A: 💯 Rejection Fixes**
 > 
-> ???
+> Upload a 15-second demo video in the app submission's preview and screenshot section.
 
 ## 🚫 Guideline 2.3 - Performance - Accurate Metadata
 
@@ -162,3 +162,18 @@ In order to approve your your new in-app purchase business model, we have to ver
 > **A: 💯 Rejection Fixes**
 > 
 > ??? No changes were made, but after resubmitting, a new error [2.1](#-guideline-21---performance---app-completeness) occurred.
+
+
+## 🚫Guideline 2.1 - Performance - App Completeness
+
+Settings > Full Disk Access erroneously states "Granted", however the access was never asked for or granted by the user.
+
+**Q: Next Steps**
+
+Test the app on supported devices to identify and resolve bugs and stability issues before submitting for review.
+
+If you are unable to reproduce the bug, try the following:
+
+- For new apps, uninstall all previous versions of your app from a device, then install and follow the steps to reproduce.
+- For app updates, install the new version as an update to the previous version, then follow the steps to reproduce.
+
