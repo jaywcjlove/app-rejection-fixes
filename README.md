@@ -184,3 +184,7 @@ If you are unable to reproduce the bug, try the following:
 - For new apps, uninstall all previous versions of your app from a device, then install and follow the steps to reproduce.
 - For app updates, install the new version as an update to the previous version, then follow the steps to reproduce.
 
+> [!WARNING]  
+> **A: 💯 Rejection Fixes**
+> 
+> ??? 
