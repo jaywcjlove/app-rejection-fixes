@@ -49,7 +49,7 @@
 
 **问题描述：**
 
-在 App Store Connect 中提供的支持 URL（https://github.com/jaywcjlove/quick-rss/issues/new?assignees=&labels=support%2Cfeedback%2Cquestion&projects=&template=bug_report.yml&title=%F0%9F%99%8B%E2%80%8D%E2%99%82%EF%B8%8F+Support+%26+Feedback%3A+Quick+RSS）未指向用户可以用来提出问题或请求支持的信息网站。
+在 App Store Connect 中提供的支持 URL https://github.com/jaywcjlove/quick-rss/issues/new?assignees=&labels=support%2Cfeedback%2Cquestion&projects=&template=bug_report.yml&title=%F0%9F%99%8B%E2%80%8D%E2%99%82%EF%B8%8F+Support+%26+Feedback%3A+Quick+RSS 未指向用户可以用来提出问题或请求支持的信息网站。
 
 具体来说，支持 URL 中没有找到官方应用支持联系方式。
 
@@ -60,7 +60,7 @@
 > [!TIP]  
 > **解决方案：💯 拒绝修复**
 > 
-> 我创建了一个反馈页面（https://wangchujiang.com/quick-rss/feedback.zh.html）通过了 iOS 端审核，然而 macOS 端仍然是 GitHub Issue 作为反馈页面
+> 我创建了一个反馈页面 https://wangchujiang.com/quick-rss/feedback.zh.html 通过了 iOS 端审核，然而 macOS 端仍然是 GitHub Issue 作为反馈页面
 >
 > <img src="https://github.com/user-attachments/assets/5e2c9a1e-25ce-46c0-a96f-93e4258746c1" alt="Rejection Fixes" width="360" />
 
