@@ -1,3 +1,7 @@
+<div align="right">
+    <a href="./README.zh.md">中文</a>
+</div>
+
 App Rejection Fixes
 ===
 
@@ -91,6 +95,8 @@ Provide a link to the video in the App Review Information section of your the ap
 > **A: 💯 Rejection Fixes**
 > 
 > Upload a 15-second demo video in the app submission's preview and screenshot section.
+> 
+> <img src="https://github.com/user-attachments/assets/5e2c9a1e-25ce-46c0-a96f-93e4258746c1" alt="Rejection Fixes" width="360" />
 
 ## 🚫 Guideline 2.3 - Performance - Accurate Metadata
 
