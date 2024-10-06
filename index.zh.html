@@ -1,0 +1,225 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>应用拒绝修复 App Rejection Fixes</title>
+    <meta name="description" content="本仓库记录了应用在 App Store 审核过程中被拒的各种原因，并提供了解决这些问题的方案。它作为开发者的资源，帮助更好地理解常见的拒绝情形以及如何有效应对，旨在为未来的提交简化审核流程。">
+    <meta name="keywords" content="App Rejection, App Store Review, Rejection Reasons, App Submission, Developer Resources, Review Process, App Approval, Common Issues, Solutions, Review Issues">
+    <meta name="author" content="Kenny Wong">
+    <meta property="og:site_name" content="App Rejection Fixes">
+    <meta property="og:url" content="https://wangchujiang.com/app-rejection-fixes/index.zh.html">
+    <meta property="og:image" content="https://wangchujiang.com/app-rejection-fixes/logo.svg">
+    <meta property="og:type" content="application">
+    <meta property="og:title" content="App Rejection Fixes">
+    <meta property="og:description" content="本仓库记录了应用在 App Store 审核过程中被拒的各种原因，并提供了解决这些问题的方案。它作为开发者的资源，帮助更好地理解常见的拒绝情形以及如何有效应对，旨在为未来的提交简化审核流程。">
+    <meta property="twitter:site" content="@jaywcjlove">
+    <meta property="twitter:creator" content="jaywcjlove">
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:title" content="App Rejection Fixes - 本仓库记录了应用在 App Store 审核过程中被拒的各种原因，并提供了解决这些问题的方案。它作为开发者的资源，帮助更好地理解常见的拒绝情形以及如何有效应对，旨在为未来的提交简化审核流程。">
+    <meta property="twitter:description" content="本仓库记录了应用在 App Store 审核过程中被拒的各种原因，并提供了解决这些问题的方案。它作为开发者的资源，帮助更好地理解常见的拒绝情形以及如何有效应对，旨在为未来的提交简化审核流程。">
+    <link rel="stylesheet" type="text/css" href="css/main.css?v=1.33.2">
+    <link rel="stylesheet" type="text/css" href="css/tocbot.css?v=1.33.2">
+    <link rel="stylesheet" type="text/css" href="css/media.css?v=1.33.2">
+    <link rel="stylesheet" type="text/css" href="css/sidebar.css?v=1.33.2">
+    <link rel="stylesheet" type="text/css" href="css/copy.css?v=1.33.2">
+    <link rel="stylesheet" type="text/css" href="css/demo-preview.css?v=1.33.2">
+    <link rel="icon" href="logo.svg" type="image/x-icon">
+    <script src="js/copy.js?v=1.33.2"></script>
+    <script src="js/dark-mode.js?v=1.33.2"></script>
+    <script src="js/markdown-style.js?v=1.33.2"></script>
+  </head>
+  <body id="idoctotop"><a href="#idoctotop" class="gototop">top</a>
+    <header class="header">
+      <article class="inner warpper"><a class="logo" href="index.html"><svg fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30">
+            <path fill="#dd3939" d="M25.565,9.785c-0.123,0.077-3.051,1.702-3.051,5.305c0.138,4.109,3.695,5.55,3.756,5.55 c-0.061,0.077-0.537,1.963-1.947,3.94C23.204,26.283,21.962,28,20.076,28c-1.794,0-2.438-1.135-4.508-1.135 c-2.223,0-2.852,1.135-4.554,1.135c-1.886,0-3.22-1.809-4.4-3.496c-1.533-2.208-2.836-5.673-2.882-9 c-0.031-1.763,0.307-3.496,1.165-4.968c1.211-2.055,3.373-3.45,5.734-3.496c1.809-0.061,3.419,1.242,4.523,1.242 c1.058,0,3.036-1.242,5.274-1.242C21.394,7.041,23.97,7.332,25.565,9.785z M15.001,6.688c-0.322-1.61,0.567-3.22,1.395-4.247 c1.058-1.242,2.729-2.085,4.17-2.085c0.092,1.61-0.491,3.189-1.533,4.339C18.098,5.937,16.488,6.872,15.001,6.688z"></path>
+          </svg>
+<span class="title">App Rejection Fixes</span></a>
+        <div class="content">
+          <ul class="menu">
+            <li><a href="index.html" target="" class="">Home</a></li>
+            <li><a href="https://wangchujiang.com/#/app" target="__blank" class="">Apps</a></li>
+            <li><a href="https://wangchujiang.com/#/about" target="__blank" class="">About</a></li>
+          </ul><a href="https://github.com/jaywcjlove/app-rejection-fixes" target="_blank" rel="noopener noreferrer" title="Github" name="Github" class="github"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+            </svg></a>
+          <dark-mode permanent=""></dark-mode>
+        </div>
+      </article>
+    </header>
+    <div class="warpper-content warpper">
+      <markdown-style theme-auto-switch-disabled="">
+        <h1 id="应用拒绝修复"><a aria-hidden="true" tabindex="-1" href="#应用拒绝修复" class="anchor"><span class="icon icon-link"></span></a>应用拒绝修复</h1>
+        <p>本仓库记录了应用在 App Store 审核过程中被拒的各种原因，并提供了解决这些问题的方案。它作为开发者的资源，帮助更好地理解常见的拒绝情形以及如何有效应对，旨在为未来的提交简化审核流程。</p>
+        <p>✦ 我的 macOS/iOS 应用 ✦</p>
+        <p style="display: inline_block">
+          <a target="_blank" href="https://wangchujiang.com/quick-rss/" title="Quick RSS for macOS"><img align="center" alt="Quick RSS" height="50" width="50" src="https://github.com/user-attachments/assets/deb91549-0347-458c-9768-3b0fcb18aebc"></a>
+          <a target="_blank" href="https://wangchujiang.com/web-serve/" title="Web Serve for macOS"><img align="center" alt="Web Serve" height="50" width="50" src="https://github.com/user-attachments/assets/e1d9f76f-0f3d-4ba5-8a15-253ee173bb1c"></a>
+          <a target="_blank" href="https://wangchujiang.com/copybook-generator/" title="Copybook Generator for macOS/iOS"><img align="center" alt="Copybook Generator" height="50" width="50" src="https://github.com/jaywcjlove/jaywcjlove/assets/1680273/b90e42ff-158b-4534-82ca-5898fd0e8d73"></a>
+          <a target="_blank" href="https://wangchujiang.com/devtutor/" title="DevTutor for macOS/iOS"><img align="center" alt="DevTutor for SwiftUI" height="50" width="50" src="https://github.com/jaywcjlove/jaywcjlove/assets/1680273/f15c154d-0192-48eb-8e0e-9e245ffd974a"></a>
+          <a target="_blank" href="https://wangchujiang.com/regex-mate/" title="RegexMate for macOS/iOS"><img align="center" alt="RegexMate" height="50" width="50" src="https://github.com/jaywcjlove/jaywcjlove/assets/1680273/aabe5aa9-9a96-4390-8bed-c3e4023d0dea"></a>
+          <a target="_blank" href="https://wangchujiang.com/time-passage/" title="Time Passage for macOS/iOS"><img align="center" alt="Time Passage" height="50" width="50" src="https://github.com/jaywcjlove/time-passage/assets/1680273/6f30e429-e6f3-4dbe-9921-a5effe2a05e9"></a>
+          <a target="_blank" href="https://wangchujiang.com/IconizeFolder/" title="IconizeFolder for macOS"><img align="center" alt="Iconize Folder" height="50" width="50" src="https://github.com/jaywcjlove/jaywcjlove/assets/1680273/fa9d8b9c-1e51-4ded-877c-fa5b21c47220"></a>
+          <a target="_blank" href="https://wangchujiang.com/TextSoundSaver/" title="Textsound Saver for macOS/iOS"><img align="center" alt="Textsound Saver" height="50" width="50" src="https://github.com/jaywcjlove/jaywcjlove/assets/1680273/0595e842-980b-4574-8891-a8ba853a08be"></a>
+          <a target="_blank" href="https://wangchujiang.com/create-custom-symbols/" title="Create Custom Symbols for macOS"><img align="center" alt="Create Custom Symbols" height="50" width="50" src="https://github.com/jaywcjlove/jaywcjlove/assets/1680273/8cd022ce-a3f1-4e89-b7c6-6fbd0d4db77c"></a>
+          <a target="_blank" href="https://wangchujiang.com/DevHub/" title="DevHub for macOS"><img align="center" alt="DevHub" height="50" width="50" src="https://github.com/jaywcjlove/jaywcjlove/assets/1680273/6d38923c-b97d-4687-9601-9865bd0eea1a"></a>
+          <a target="_blank" href="https://wangchujiang.com/ResumeRevise/" title="Resume Revise for macOS"><img align="center" alt="Resume Revise" height="50" width="50" src="https://github.com/jaywcjlove/jaywcjlove/assets/1680273/c9954a20-1905-48de-bdf8-d71837974aa2"></a>
+          <a target="_blank" href="https://wangchujiang.com/palette-genius/" title="Palette Genius for macOS"><img align="center" alt="Palette Genius" height="50" width="50" src="https://github.com/jaywcjlove/jaywcjlove/assets/1680273/27340413-d355-45b2-8f6f-6ac37682d957"></a>
+          <a target="_blank" href="https://wangchujiang.com/symbol-scribe/" title="Symbol Scribe for macOS"><img align="center" alt="Symbol Scribe" height="50" width="50" src="https://github.com/jaywcjlove/jaywcjlove/assets/1680273/c7249f05-fa70-4def-a1e9-571d5f171fc9"></a>
+        </p><br>
+        <h2 id="-指南-15---安全性"><a aria-hidden="true" tabindex="-1" href="#-指南-15---安全性" class="anchor"><span class="icon icon-link"></span></a>🚫 指南 1.5 - 安全性</h2>
+        <p>1.5 开发者信息<br>用户需要知道如何联系您以提出问题和获取支持。请确保您的应用及其支持 URL 提供了简单的联系方式；对于可能在课堂中使用的应用，这一点尤为重要。未能提供准确且最新的联系信息不仅会让客户感到沮丧，还可能违反某些国家或地区的法律。还要确保 Wallet 票证包含发行者的有效联系信息，并使用分配给票证品牌或商标所有者的专用证书进行签署。</p>
+        <p><strong>问题描述：</strong></p>
+        <p>在 App Store Connect 中提供的支持 URL（<a href="https://wangchujiang.com/quick-rss/%EF%BC%89%E5%B9%B6%E6%9C%AA%E6%8C%87%E5%90%91%E4%B8%80%E4%B8%AA%E7%94%A8%E6%88%B7%E5%8F%AF%E4%BB%A5%E7%94%A8%E6%9D%A5%E6%8F%90%E5%87%BA%E9%97%AE%E9%A2%98%E6%88%96%E8%AF%B7%E6%B1%82%E6%94%AF%E6%8C%81%E7%9A%84%E7%BD%91%E7%AB%99%E3%80%82">https://wangchujiang.com/quick-rss/）并未指向一个用户可以用来提出问题或请求支持的网站。</a></p>
+        <div class="markdown-alert markdown-alert-tip" dir="auto">
+          <p class="markdown-alert-title" dir="auto">
+            <svg class="octicon" viewBox="0 0 16 16" width="16" height="16" aria-hidden="true">
+              <path d="M8 1.5c-2.363 0-4 1.69-4 3.75 0 .984.424 1.625.984 2.304l.214.253c.223.264.47.556.673.848.284.411.537.896.621 1.49a.75.75 0 0 1-1.484.211c-.04-.282-.163-.547-.37-.847a8.456 8.456 0 0 0-.542-.68c-.084-.1-.173-.205-.268-.32C3.201 7.75 2.5 6.766 2.5 5.25 2.5 2.31 4.863 0 8 0s5.5 2.31 5.5 5.25c0 1.516-.701 2.5-1.328 3.259-.095.115-.184.22-.268.319-.207.245-.383.453-.541.681-.208.3-.33.565-.37.847a.751.751 0 0 1-1.485-.212c.084-.593.337-1.078.621-1.489.203-.292.45-.584.673-.848.075-.088.147-.173.213-.253.561-.679.985-1.32.985-2.304 0-2.06-1.637-3.75-4-3.75ZM5.75 12h4.5a.75.75 0 0 1 0 1.5h-4.5a.75.75 0 0 1 0-1.5ZM6 15.25a.75.75 0 0 1 .75-.75h2.5a.75.75 0 0 1 0 1.5h-2.5a.75.75 0 0 1-.75-.75Z"></path>
+            </svg>TIP
+          </p>
+          <p><strong>解决方案：💯 拒绝修复</strong></p>
+          <p>在大多数情况下，包含技术支持链接和联系信息可以顺利通过审核。然而，偶尔会有更严格的审核人员因这一问题而拒绝应用。为了解决这个问题，我使用了一种免费解决方案，即通过 GitHub 提供技术支持，利用 <a href="https://github.com/jaywcjlove/quick-rss/issues/new?assignees=&#x26;labels=support%2Cfeedback%2Cquestion&#x26;projects=&#x26;template=bug_report.yml&#x26;title=%F0%9F%99%8B%E2%80%8D%E2%99%82%EF%B8%8F+Support+%26+Feedback%3A+Quick+RSS">issue</a> 功能提交问题，并成功通过了审核。</p>
+          <p><a href="https://github.com/jaywcjlove/quick-rss/issues/new?assignees=&#x26;labels=support%2Cfeedback%2Cquestion&#x26;projects=&#x26;template=bug_report.yml&#x26;title=%F0%9F%99%8B%E2%80%8D%E2%99%82%EF%B8%8F+Support+%26+Feedback%3A+Quick+RSS"><img src="https://github.com/user-attachments/assets/ec2e48e7-fbcc-404d-969a-a5729354aad4" alt="拒绝修复" width="360"></a></p>
+        </div>
+        <h2 id="-指南-15---安全性-1"><a aria-hidden="true" tabindex="-1" href="#-指南-15---安全性-1" class="anchor"><span class="icon icon-link"></span></a>🚫 指南 1.5 - 安全性</h2>
+        <p>1.5 开发者信息<br>用户需要知道如何联系您以提出问题和获取支持。请确保您的应用及其支持 URL 提供了一个简便的联系方式；对于可能在课堂上使用的应用，这一点尤为重要。未能提供准确且最新的联系信息不仅会让客户感到沮丧，还可能违反某些国家或地区的法律。此外，确保 Wallet 票证包含发行方的有效联系信息，并使用分配给票证品牌或商标所有者的专用证书进行签名。</p>
+        <p><strong>问题描述：</strong></p>
+        <p>在 App Store Connect 中提供的支持 URL（<a href="https://github.com/jaywcjlove/quick-rss/issues/new?assignees=&#x26;labels=support%2Cfeedback%2Cquestion&#x26;projects=&#x26;template=bug_report.yml&#x26;title=%F0%9F%99%8B%E2%80%8D%E2%99%82%EF%B8%8F+Support+%26+Feedback%3A+Quick+RSS%EF%BC%89%E6%9C%AA%E6%8C%87%E5%90%91%E7%94%A8%E6%88%B7%E5%8F%AF%E4%BB%A5%E7%94%A8%E6%9D%A5%E6%8F%90%E5%87%BA%E9%97%AE%E9%A2%98%E6%88%96%E8%AF%B7%E6%B1%82%E6%94%AF%E6%8C%81%E7%9A%84%E4%BF%A1%E6%81%AF%E7%BD%91%E7%AB%99%E3%80%82">https://github.com/jaywcjlove/quick-rss/issues/new?assignees=&#x26;labels=support%2Cfeedback%2Cquestion&#x26;projects=&#x26;template=bug_report.yml&#x26;title=%F0%9F%99%8B%E2%80%8D%E2%99%82%EF%B8%8F+Support+%26+Feedback%3A+Quick+RSS）未指向用户可以用来提出问题或请求支持的信息网站。</a></p>
+        <p>具体来说，支持 URL 中没有找到官方应用支持联系方式。</p>
+        <p><strong>后续步骤：</strong></p>
+        <p>更新指定的支持 URL，使其指向包含支持信息的网页。</p>
+        <div class="markdown-alert markdown-alert-tip" dir="auto">
+          <p class="markdown-alert-title" dir="auto">
+            <svg class="octicon" viewBox="0 0 16 16" width="16" height="16" aria-hidden="true">
+              <path d="M8 1.5c-2.363 0-4 1.69-4 3.75 0 .984.424 1.625.984 2.304l.214.253c.223.264.47.556.673.848.284.411.537.896.621 1.49a.75.75 0 0 1-1.484.211c-.04-.282-.163-.547-.37-.847a8.456 8.456 0 0 0-.542-.68c-.084-.1-.173-.205-.268-.32C3.201 7.75 2.5 6.766 2.5 5.25 2.5 2.31 4.863 0 8 0s5.5 2.31 5.5 5.25c0 1.516-.701 2.5-1.328 3.259-.095.115-.184.22-.268.319-.207.245-.383.453-.541.681-.208.3-.33.565-.37.847a.751.751 0 0 1-1.485-.212c.084-.593.337-1.078.621-1.489.203-.292.45-.584.673-.848.075-.088.147-.173.213-.253.561-.679.985-1.32.985-2.304 0-2.06-1.637-3.75-4-3.75ZM5.75 12h4.5a.75.75 0 0 1 0 1.5h-4.5a.75.75 0 0 1 0-1.5ZM6 15.25a.75.75 0 0 1 .75-.75h2.5a.75.75 0 0 1 0 1.5h-2.5a.75.75 0 0 1-.75-.75Z"></path>
+            </svg>TIP
+          </p>
+          <p><strong>解决方案：💯 拒绝修复</strong></p>
+          <p>我创建了一个反馈页面（<a href="https://wangchujiang.com/quick-rss/feedback.zh.html%EF%BC%89%E9%80%9A%E8%BF%87%E4%BA%86">https://wangchujiang.com/quick-rss/feedback.zh.html）通过了</a> iOS 端审核，然而 macOS 端仍然是 GitHub Issue 作为反馈页面</p>
+          <img src="https://github.com/user-attachments/assets/5e2c9a1e-25ce-46c0-a96f-93e4258746c1" alt="Rejection Fixes" width="360">
+        </div>
+        <h2 id="-指南-21---性能---应用完整性"><a aria-hidden="true" tabindex="-1" href="#-指南-21---性能---应用完整性" class="anchor"><span class="icon icon-link"></span></a>🚫 指南 2.1 - 性能 - 应用完整性</h2>
+        <p>提交到 App Review 的内容（包括您提供预购的应用）应为最终版本，且应包含所有必要的元数据和完整有效的 URL；提交前应清除占位符文本、空网站和其他临时内容。在提交前，请确保您的应用已在设备上进行过测试，排除错误并确保稳定性。如果您的应用需要登录，请提供演示帐户信息（并开启后端服务）。如果因法律或安全义务无法提供演示帐户，您可以提前获得 Apple 的批准后，使用内置的演示模式替代演示帐户。确保演示模式展示了应用的全部功能和特点。我们将拒绝有明显技术问题的未完整应用包和会崩溃的二进制文件。</p>
+        <p><strong>问题描述：</strong></p>
+        <p>应用程序表现出一个或多个会对 App Store 用户产生负面影响的错误。</p>
+        <p>错误描述：在 PASS 购买页面未显示任何内容。</p>
+        <div class="markdown-alert markdown-alert-tip" dir="auto">
+          <p class="markdown-alert-title" dir="auto">
+            <svg class="octicon" viewBox="0 0 16 16" width="16" height="16" aria-hidden="true">
+              <path d="M8 1.5c-2.363 0-4 1.69-4 3.75 0 .984.424 1.625.984 2.304l.214.253c.223.264.47.556.673.848.284.411.537.896.621 1.49a.75.75 0 0 1-1.484.211c-.04-.282-.163-.547-.37-.847a8.456 8.456 0 0 0-.542-.68c-.084-.1-.173-.205-.268-.32C3.201 7.75 2.5 6.766 2.5 5.25 2.5 2.31 4.863 0 8 0s5.5 2.31 5.5 5.25c0 1.516-.701 2.5-1.328 3.259-.095.115-.184.22-.268.319-.207.245-.383.453-.541.681-.208.3-.33.565-.37.847a.751.751 0 0 1-1.485-.212c.084-.593.337-1.078.621-1.489.203-.292.45-.584.673-.848.075-.088.147-.173.213-.253.561-.679.985-1.32.985-2.304 0-2.06-1.637-3.75-4-3.75ZM5.75 12h4.5a.75.75 0 0 1 0 1.5h-4.5a.75.75 0 0 1 0-1.5ZM6 15.25a.75.75 0 0 1 .75-.75h2.5a.75.75 0 0 1 0 1.5h-2.5a.75.75 0 0 1-.75-.75Z"></path>
+            </svg>TIP
+          </p>
+          <p><strong>解决方法 💯</strong></p>
+          <p>购买页面没有显示任何产品项目，页面是空白的。原因是订阅 ID 设置不正确。</p>
+        </div>
+        <h2 id="-指南-21---信息需求"><a aria-hidden="true" tabindex="-1" href="#-指南-21---信息需求" class="anchor"><span class="icon icon-link"></span></a>🚫 指南 2.1 - 信息需求</h2>
+        <p>我们需要一个展示当前版本 1.0 在物理 iOS 设备上运行的视频。</p>
+        <p>特别是，我们需要一个演示视频展示应用的使用情况。</p>
+        <p>演示视频应：</p>
+        <ul>
+          <li>展示应用在物理 iOS 设备上运行，而不是在模拟器上。</li>
+          <li>清晰记录所有相关的应用功能、服务和用户权限请求。</li>
+        </ul>
+        <p><strong>后续步骤：</strong></p>
+        <p>请在 App Store Connect 的应用页面的 App Review 信息部分提供视频链接，并回复此消息。可以使用屏幕录制工具捕捉应用的使用过程。请注意，如果应用只能通过演示视频进行审核，则每次提交应用时都需要提供更新的演示视频。</p>
+        <div class="markdown-alert markdown-alert-tip" dir="auto">
+          <p class="markdown-alert-title" dir="auto">
+            <svg class="octicon" viewBox="0 0 16 16" width="16" height="16" aria-hidden="true">
+              <path d="M8 1.5c-2.363 0-4 1.69-4 3.75 0 .984.424 1.625.984 2.304l.214.253c.223.264.47.556.673.848.284.411.537.896.621 1.49a.75.75 0 0 1-1.484.211c-.04-.282-.163-.547-.37-.847a8.456 8.456 0 0 0-.542-.68c-.084-.1-.173-.205-.268-.32C3.201 7.75 2.5 6.766 2.5 5.25 2.5 2.31 4.863 0 8 0s5.5 2.31 5.5 5.25c0 1.516-.701 2.5-1.328 3.259-.095.115-.184.22-.268.319-.207.245-.383.453-.541.681-.208.3-.33.565-.37.847a.751.751 0 0 1-1.485-.212c.084-.593.337-1.078.621-1.489.203-.292.45-.584.673-.848.075-.088.147-.173.213-.253.561-.679.985-1.32.985-2.304 0-2.06-1.637-3.75-4-3.75ZM5.75 12h4.5a.75.75 0 0 1 0 1.5h-4.5a.75.75 0 0 1 0-1.5ZM6 15.25a.75.75 0 0 1 .75-.75h2.5a.75.75 0 0 1 0 1.5h-2.5a.75.75 0 0 1-.75-.75Z"></path>
+            </svg>TIP
+          </p>
+          <p><strong>解决方法 💯</strong></p>
+          <p>在应用提交的预览和截图区域上传一个 15 秒的操作演示视频</p>
+        </div>
+        <h2 id="-指南-23---性能---准确的元数据"><a aria-hidden="true" tabindex="-1" href="#-指南-23---性能---准确的元数据" class="anchor"><span class="icon icon-link"></span></a>🚫 指南 2.3 - 性能 - 准确的元数据</h2>
+        <p>我们注意到您的应用元数据包含以下信息，这些信息与应用的内容和功能无关：</p>
+        <p>“更新内容”文本显示了 iOS 参考。</p>
+        <p><strong>Q: 下一步</strong></p>
+        <p>为解决此问题，请修改或删除您应用元数据中的此内容。有关元数据最佳实践的资源，您可能希望查看 Apple 开发者网站上提供的 App Store 产品页面信息。</p>
+        <div class="markdown-alert markdown-alert-tip" dir="auto">
+          <p class="markdown-alert-title" dir="auto">
+            <svg class="octicon" viewBox="0 0 16 16" width="16" height="16" aria-hidden="true">
+              <path d="M8 1.5c-2.363 0-4 1.69-4 3.75 0 .984.424 1.625.984 2.304l.214.253c.223.264.47.556.673.848.284.411.537.896.621 1.49a.75.75 0 0 1-1.484.211c-.04-.282-.163-.547-.37-.847a8.456 8.456 0 0 0-.542-.68c-.084-.1-.173-.205-.268-.32C3.201 7.75 2.5 6.766 2.5 5.25 2.5 2.31 4.863 0 8 0s5.5 2.31 5.5 5.25c0 1.516-.701 2.5-1.328 3.259-.095.115-.184.22-.268.319-.207.245-.383.453-.541.681-.208.3-.33.565-.37.847a.751.751 0 0 1-1.485-.212c.084-.593.337-1.078.621-1.489.203-.292.45-.584.673-.848.075-.088.147-.173.213-.253.561-.679.985-1.32.985-2.304 0-2.06-1.637-3.75-4-3.75ZM5.75 12h4.5a.75.75 0 0 1 0 1.5h-4.5a.75.75 0 0 1 0-1.5ZM6 15.25a.75.75 0 0 1 .75-.75h2.5a.75.75 0 0 1 0 1.5h-2.5a.75.75 0 0 1-.75-.75Z"></path>
+            </svg>TIP
+          </p>
+          <p><strong>A: 💯 拒绝修复</strong></p>
+          <p>在 iOS 应用的更新说明中提到 macOS 并不会造成问题，但在 macOS 应用的更新说明中提到 iOS 很可能导致拒绝。</p>
+        </div>
+        <h2 id="-指南-245i---性能"><a aria-hidden="true" tabindex="-1" href="#-指南-245i---性能" class="anchor"><span class="icon icon-link"></span></a>🚫 指南 2.4.5(i) - 性能</h2>
+        <p>为了继续审核您的应用，我们需要更多信息。</p>
+        <p>您的应用使用了一个或多个权限，但在应用中似乎没有匹配的功能。请在 App Store Connect 中回复此消息，并描述应用如何以及在何处使用以下权限。您无需上传新的二进制文件即可提供此信息。</p>
+        <p>应用应仅包含正常运行所需的最小权限集。如果有不需要的权限，请将其移除并提交更新的二进制文件。您需要先将应用开发者拒绝后才能上传更新版本。</p>
+        <h2 id="-指南-4---设计"><a aria-hidden="true" tabindex="-1" href="#-指南-4---设计" class="anchor"><span class="icon icon-link"></span></a>🚫 指南 4 - 设计</h2>
+        <p>我们注意到您的应用用户界面存在一个问题，导致用户体验低于 App Store 用户的期望。</p>
+        <p>具体来说，我们发现当用户关闭主应用窗口时，没有菜单项可以重新打开它。</p>
+        <p><strong>Q: 下一步</strong></p>
+        <p>应用可以实现一个窗口菜单，列出主窗口以便重新打开，或者在其他菜单项中提供类似功能。</p>
+        <p>另外，如果应用是单窗口应用，在关闭主窗口时保存数据并退出应用可能也是合适的选择。</p>
+        <blockquote>
+          <p>[!提示]<br><strong>A: 💯 拒绝修复</strong></p>
+          <p>在窗口菜单中添加一个“主窗口”菜单项。这样，当应用关闭时，用户可以点击该菜单项重新打开主窗口。</p>
+          <img src="https://github.com/user-attachments/assets/d316f9a4-c683-40cd-af25-93f357d6f80f" alt="拒绝修复" width="360">
+          <p>或者，您可以实现点击关闭按钮直接退出应用。</p>
+        </blockquote>
+        <h2 id="-指南-311---商业---支付---应用内购买"><a aria-hidden="true" tabindex="-1" href="#-指南-311---商业---支付---应用内购买" class="anchor"><span class="icon icon-link"></span></a>🚫 指南 3.1.1 - 商业 - 支付 - 应用内购买</h2>
+        <p>我们已经开始审查您的应用内购买，但无法继续，因为您提交的应用内购买显示出应用商业模式的变化。</p>
+        <p>具体来说，您现有的自动续订订阅商业模式已更改为包含不可消耗的应用内购买商业模式类型。</p>
+        <p>因此，我们需要验证您提交的应用内购买在应用中的实现，以确保您的应用及其应用内购买符合 App 审核指南。</p>
+        <p><strong>Q: 下一步</strong></p>
+        <p>为了批准您新的应用内购买商业模式，我们必须验证正在出售的商品的可购买性。请上传一个新的二进制文件，并确保您的新应用内购买产品在审核时可供购买。</p>
+        <div class="markdown-alert markdown-alert-warning" dir="auto">
+          <p class="markdown-alert-title" dir="auto">
+            <svg class="octicon" viewBox="0 0 16 16" width="16" height="16" aria-hidden="true">
+              <path d="M6.457 1.047c.659-1.234 2.427-1.234 3.086 0l6.082 11.378A1.75 1.75 0 0 1 14.082 15H1.918a1.75 1.75 0 0 1-1.543-2.575Zm1.763.707a.25.25 0 0 0-.44 0L1.698 13.132a.25.25 0 0 0 .22.368h12.164a.25.25 0 0 0 .22-.368Zm.53 3.996v2.5a.75.75 0 0 1-1.5 0v-2.5a.75.75 0 0 1 1.5 0ZM9 11a1 1 0 1 1-2 0 1 1 0 0 1 2 0Z"></path>
+            </svg>WARNING
+          </p>
+          <p><strong>A: 💯 拒绝修复</strong></p>
+          <p>??? 未进行更改，但在重新提交后出现了新的错误 <a href="#-guideline-21---performance---app-completeness">2.1</a>。</p>
+        </div>
+        <h2 id="-guideline-21---performance---app-completeness"><a aria-hidden="true" tabindex="-1" href="#-guideline-21---performance---app-completeness" class="anchor"><span class="icon icon-link"></span></a>🚫 Guideline 2.1 - Performance - App Completeness</h2>
+        <p>在 "设置 > 完全磁盘访问" 中错误地显示为“已授权”，但实际上用户从未被要求或授予该权限。</p>
+        <p><strong>Q: 下一步</strong></p>
+        <p>在受支持的设备上测试应用程序，以识别并解决错误和稳定性问题，然后再提交审核。</p>
+        <p>如果无法重现该错误，请尝试以下操作：</p>
+        <ul>
+          <li>对于新应用，卸载设备上所有以前版本的应用，然后安装新版本，并按照步骤重现问题。</li>
+          <li>对于应用更新，先将新版本作为对先前版本的更新进行安装，然后按照步骤重现问题。</li>
+        </ul>
+        <div class="markdown-alert markdown-alert-warning" dir="auto">
+          <p class="markdown-alert-title" dir="auto">
+            <svg class="octicon" viewBox="0 0 16 16" width="16" height="16" aria-hidden="true">
+              <path d="M6.457 1.047c.659-1.234 2.427-1.234 3.086 0l6.082 11.378A1.75 1.75 0 0 1 14.082 15H1.918a1.75 1.75 0 0 1-1.543-2.575Zm1.763.707a.25.25 0 0 0-.44 0L1.698 13.132a.25.25 0 0 0 .22.368h12.164a.25.25 0 0 0 .22-.368Zm.53 3.996v2.5a.75.75 0 0 1-1.5 0v-2.5a.75.75 0 0 1 1.5 0ZM9 11a1 1 0 1 1-2 0 1 1 0 0 1 2 0Z"></path>
+            </svg>WARNING
+          </p>
+          <p>
+            <strong>A: 💯 拒绝修复</strong>
+            ???
+          </p>
+        </div>
+      </markdown-style>
+      <nav class="tocs">
+        <aside class="inner toc">
+          <ol class="tocs-list">
+            <li><a href="#-指南-15---安全性" class="tocs-link">🚫 指南 1.5 - 安全性</a></li>
+            <li><a href="#-指南-15---安全性-1" class="tocs-link">🚫 指南 1.5 - 安全性</a></li>
+            <li><a href="#-指南-21---性能---应用完整性" class="tocs-link">🚫 指南 2.1 - 性能 - 应用完整性</a></li>
+            <li><a href="#-指南-21---信息需求" class="tocs-link">🚫 指南 2.1 - 信息需求</a></li>
+            <li><a href="#-指南-23---性能---准确的元数据" class="tocs-link">🚫 指南 2.3 - 性能 - 准确的元数据</a></li>
+            <li><a href="#-指南-245i---性能" class="tocs-link">🚫 指南 2.4.5(i) - 性能</a></li>
+            <li><a href="#-指南-4---设计" class="tocs-link">🚫 指南 4 - 设计</a></li>
+            <li><a href="#-指南-311---商业---支付---应用内购买" class="tocs-link">🚫 指南 3.1.1 - 商业 - 支付 - 应用内购买</a></li>
+            <li><a href="#-guideline-21---performance---app-completeness" class="tocs-link">🚫 Guideline 2.1 - Performance - App Completeness</a></li>
+          </ol>
+        </aside>
+      </nav>
+    </div>
+    <script src="js/demo-preview.js?v=1.33.2"></script>
+    <div class="footer warpper">
+      <a href="https://wangchujiang.com/#/projects" target="_blank">Projects</a> •
+      <a href="https://wangchujiang.com/#/sponsor" target="_blank">Sponsor</a> •
+      <a href="https://wangchujiang.com/#/app" target="_blank">More Apps</a><br><br>Generated by <a href="https://github.com/jaywcjlove/idoc" target="_blank">idoc</a> v1.33.2
+    </div>
+    <script src="js/tocbot.js?v=1.33.2"></script>
+  </body>
+</html>
