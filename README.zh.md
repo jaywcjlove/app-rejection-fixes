@@ -33,7 +33,7 @@
 
 **问题描述：**
 
-在 App Store Connect 中提供的支持 URL（https://wangchujiang.com/quick-rss/）并未指向一个用户可以用来提出问题或请求支持的网站。
+在 App Store Connect 中提供的支持 URL https://wangchujiang.com/quick-rss/ 并未指向一个用户可以用来提出问题或请求支持的网站。
 
 > [!TIP]  
 > **解决方案：💯 拒绝修复**
