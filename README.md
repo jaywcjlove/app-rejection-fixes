@@ -185,7 +185,7 @@ If you are unable to reproduce the bug, try the following:
 - For new apps, uninstall all previous versions of your app from a device, then install and follow the steps to reproduce.
 - For app updates, install the new version as an update to the previous version, then follow the steps to reproduce.
 
-> [!WARNING]  
+> [!TIP]  
 > **A: 💯 Rejection Fixes**
 > 
 > The ‘Full Disk Access’ status on the ‘Settings’ page is cached, so it remains the same when closing and reopening the window. This is because the page is created using NSWindow. The solution is to regenerate the window each time it is accessed.
