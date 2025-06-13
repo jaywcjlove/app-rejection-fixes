@@ -1,5 +1,5 @@
 <div align="right">
-    <a href="./README.zh.md">中文</a>
+    <a href="./README.zh.md" align="right">中文</a>
 </div>
 
 App Rejection Fixes
