@@ -1,16 +1,8 @@
-<div align="right">
-    <a href="./README.zh.md" align="right">中文</a>
-</div>
 
-App Rejection Fixes
-===
-
-This repository documents the various reasons why apps were rejected during the App Store review process and provides solutions to resolve these issues. It serves as a resource for developers to better understand common rejection scenarios and how to address them effectively, helping streamline the review process for future submissions.
-
-
-✦ My macOS/iOS application ✦
-
-<p style="display: inline_block">
+<div markdown="1">
+    <sup>Using <a href="https://wangchujiang.com/#/app" target="_blank">my app</a> is also a way to <a href="https://wangchujiang.com/#/sponsor" target="_blank">support</a> me:</sup>
+    <br>
+    <a target="_blank" href="https://github.com/jaywcjlove/vidwall-hub" title="Vidwall Hub for macOS"><img align="center" alt="Vidwall Hub" height="52" width="52" src="https://wangchujiang.com/appicon/vidwall-hub.png"></a>
     <a target="_blank" href="https://apps.apple.com/app/VidCrop/6752624705" title="VidCrop for macOS"><img align="center" alt="VidCrop" height="52" width="52" src="https://github.com/user-attachments/assets/91d2b281-271a-4107-9ef6-f3b11bd6dbac"></a>
     <a target="_blank" href="https://apps.apple.com/app/Vidwall/6747587746" title="Vidwall for macOS"><img align="center" alt="Vidwall" height="52" width="52" src="https://github.com/user-attachments/assets/7b5df70a-ed91-4d4b-85be-f00e60a09ce9"></a>
     <a target="_blank" href="https://wangchujiang.com/mousio-hint/" title="Mousio Hint for macOS"><img align="center" alt="Mousio Hint" height="52" width="52" src="https://github.com/user-attachments/assets/3c0af128-0cef-44e5-a8db-4741dc5a6690"></a>
@@ -38,8 +30,15 @@ This repository documents the various reasons why apps were rejected during the 
     <a target="_blank" href="https://apps.apple.com/app/6476400184" title="Resume Revise for macOS"><img align="center" alt="Resume Revise" height="52" width="52" src="https://github.com/jaywcjlove/jaywcjlove/assets/1680273/c9954a20-1905-48de-bdf8-d71837974aa2"></a>
     <a target="_blank" href="https://apps.apple.com/app/6472593276" title="Palette Genius for macOS"><img align="center" alt="Palette Genius" height="52" width="52" src="https://github.com/jaywcjlove/jaywcjlove/assets/1680273/27340413-d355-45b2-8f6f-6ac37682d957"></a>
     <a target="_blank" href="https://apps.apple.com/app/6470879005" title="Symbol Scribe for macOS"><img align="center" alt="Symbol Scribe" height="52" width="52" src="https://github.com/jaywcjlove/jaywcjlove/assets/1680273/c7249f05-fa70-4def-a1e9-571d5f171fc9"></a>
-</p>
-<br>
+</div>
+<hr>
+
+App Rejection Fixes
+===
+
+[中文](./README.zh.md)
+
+This repository documents the various reasons why apps were rejected during the App Store review process and provides solutions to resolve these issues. It serves as a resource for developers to better understand common rejection scenarios and how to address them effectively, helping streamline the review process for future submissions.
 
 ## 🚫 Guideline 1.5 - Safety
 
