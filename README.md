@@ -202,5 +202,5 @@ If you are unable to reproduce the bug, try the following:
 > [!TIP]  
 > **A: 💯 Rejection Fixes**
 > 
-> The ‘Full Disk Access’ status on the ‘Settings’ page is cached, so it remains the same when closing and reopening the window. This is because the page is created using NSWindow. The solution is to regenerate the window each time it is accessed.
+> The `Full Disk Access` status on the `Settings` page is cached, so it remains the same when closing and reopening the window. This is because the page is created using NSWindow. The solution is to regenerate the window each time it is accessed.
 
